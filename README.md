@@ -11,7 +11,7 @@ Leonardo Martins Qualharello - 11.120.470-7
 
 # Modelo Entidade-Relacional
 
-![Modelo Entidade-Relacional](MER2(1).png)
+![Modelo Entidade-Relacional](MER2.png)
 
 # Modelo Relacional
 
