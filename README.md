@@ -19,16 +19,18 @@ Leonardo Martins Qualharello - 11.120.470-7
 
 # Como rodar o código 
 
-  - O arquivo query_tables.sql contém todas as queries necessárias para a construção do projeto.
-  - O arquivo algebra_relacional.sql contém todas as queries necessárias para tratar as questões de algebra relacional do projeto 
-      - O arquivo conecta.py contém o código para a geração de dados aleatórios.
+  - O arquivo project_netflix contém todo o projeto exportado diretamente do MySQL (inlcuindo os dados inseridos para os testes das queries)
+  - O arquivo query_tables.sql contém todas os códigos necessários para a construção do projeto.
+  - O arquivo algebra_relacional2.sql contém todas as queries necessárias para tratar as questões de algebra relacional do projeto 
+  - O arquivo conecta.py contém o código para a geração de dados aleatórios.
+  - O arquivo Dados.txt contém todos os parâmetros inseridos em cada tabela.
 
-    1° Importe os arquivos "query_tables.sql" e "algebra_relacional.sql" dentro do seu banco, execute os comandos:
-       - **CREATE DATABASE  IF NOT EXISTS `project_netflix`;**
-       - **USE `project_netflix`;**
-       - Esses códigos estão no arquivo "query_tables.sql", e são responsáveis para criar um novo database.
+    1° Importe o arquivo "project_netflix.sql" e "algebra_relacional2.sql" dentro do seu banco, execute o código do arquivo "project_netflix.sql"
+      - O arquivo project_netflix, contém toda a estrutura para a criação do schema incluindo os dados dentro das tabelas que foram utilizados para teste das queries.
 
-    2° Para a inserção dos dados aleatórios:
+    2° Execute as queries no arquivo "algebra_relacional2.sql"
+    
+    3° Para a inserção dos dados aleatórios:
       - Execute o seguinte código no terminal do windows: ** pip install faker**
       - Importe o arquivo conecta.py no vscode
       - Execute o arquivo conecta.py
@@ -37,7 +39,7 @@ Leonardo Martins Qualharello - 11.120.470-7
       - Importe o arquivo dados_aleatorios.sql no banco de dados. Na primeira linha do arquivo escreva o comando **USE `project_netflix`;** e execute, agora é só executar o resto das queries de inserção
       
 
-    3° Volte para o banco de dados e execute as queries do arquivo "algebra_relacional.sql"
+    
   
 
 
