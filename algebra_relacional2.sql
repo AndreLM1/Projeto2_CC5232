@@ -10,17 +10,17 @@ having count(a.id_diretor) > 3;
 
 -- item 2 Mostre todos os Usuários e sua lista e os filmes nessa lista
 select  a.nome as Usuario, b.nome as Lista, d.titulo as Filmes  from usuario a
-left join lista b on a.id_usuario = b.id_usuario
-left join lista_conteudo c on b.id_lista = c.id_lista
-left join filme d on c.id_filme = d.id_filme
-where d.titulo != '';
+inner join lista b on a.id_usuario = b.id_usuario
+inner join lista_conteudo c on b.id_lista = c.id_lista
+inner join filme d on c.id_filme = d.id_filme;
+
 
 -- item 3 Mostre todos os Usuários e sua lista e as series nessa lista
 select  a.nome as Usuario, b.id_lista, d.titulo as Series  from usuario a
-left join lista b on a.id_usuario = b.id_usuario
-left join lista_conteudo c on b.id_lista = c.id_lista
-left join serie d on c.id_serie = d.id_serie
-where d.titulo != '';
+inner join lista b on a.id_usuario = b.id_usuario
+inner join lista_conteudo c on b.id_lista = c.id_lista
+inner join serie d on c.id_serie = d.id_serie;
+
 
 -- 4 Mostre a serie com mais temporadas  de cada lista 
 select a.nome as Lista, d.titulo as Serie, d.temporadas as Temporadas from usuario a
