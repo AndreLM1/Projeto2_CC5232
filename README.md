@@ -34,8 +34,8 @@ Leonardo Martins Qualharello - 11.120.470-7
       - Execute o seguinte código no terminal do windows: ** pip install faker**
       - Importe o arquivo conecta.py no vscode
       - Execute o arquivo conecta.py
-      - Irá gerar um arquivo chamado seeder.sql no próprio vscode
-      - Se preferir,há um arquivo dados_aleatorios.sql na branch.
+      - Irá gerar um arquivo chamado dados_aleatorios.sql no próprio vscode
+      - Se preferir, há um arquivo dados_aleatorios.sql na branch.
       - Importe o arquivo dados_aleatorios.sql no banco de dados. Na primeira linha do arquivo escreva o comando **USE `project_netflix`;** e execute, agora é só executar o resto das queries de inserção
       
 
