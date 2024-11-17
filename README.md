@@ -24,11 +24,14 @@ Leonardo Martins Qualharello - 11.120.470-7
   - O arquivo algebra_relacional2.sql contém todas as queries necessárias para tratar as questões de algebra relacional do projeto 
   - O arquivo conecta.py contém o código para a geração de dados aleatórios.
   - O arquivo Dados.txt contém todos os parâmetros inseridos em cada tabela.
+    
 
     1° Importe o arquivo "project_netflix.sql" e "algebra_relacional2.sql" dentro do seu banco, execute o código do arquivo "project_netflix.sql"
+      - Não esqueça de criar uma conexão primeiro com o banco e de utilizar o perfil de administrador 
       - O arquivo project_netflix, contém toda a estrutura para a criação do schema incluindo os dados dentro das tabelas que foram utilizados para teste das queries.
 
     2° Execute as queries no arquivo "algebra_relacional2.sql"
+      - Execute o comando *use project_netflix;*
     
     3° Para a inserção dos dados aleatórios:
       - Execute o seguinte código no terminal do windows: ** pip install faker**
